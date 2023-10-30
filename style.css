@@ -1,0 +1,372 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans";
+}
+
+body {
+  background-color: black;
+}
+
+.menu-link {
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration: none;
+  padding: 40px 16px;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+}
+.container {
+  margin: 0 auto;
+  width: 1147px;
+}
+.menu-link:hover {
+  color: #3a68b8;
+}
+.header {
+  padding-bottom: 160px;
+  background-color: #020a18;
+}
+
+.subtitle {
+  color: #3a68b8;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.title {
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 130%;
+  margin-bottom: 40px;
+}
+.dsc {
+  color: var(--ffffff, #fff);
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%;
+  opacity: 0.7;
+  margin-bottom: 65px;
+}
+.main-link {
+  border-radius: 5px;
+  background: #3a68b8;
+  padding: 1rem 2rem;
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration: none;
+  margin-bottom: 50px;
+  margin-right: 20px;
+}
+
+.main-link > i {
+  margin-right: 10px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+.main-left,
+.main-right {
+  width: 47%;
+}
+
+.main-right > img {
+  width: 100%;
+  height: 100%;
+}
+
+.main {
+  padding-bottom: 200px;
+  background-color: #020a18;
+}
+
+.conteyner {
+  margin: 0 auto;
+  width: 1147px;
+  padding-top: 157px;
+}
+
+.titl {
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  width: 484px;
+}
+
+.dvc {
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%;
+  opacity: 0.7;
+  margin-bottom: 40px;
+}
+
+.flet {
+  display: flex;
+  justify-content: space-between;
+}
+.main_right,
+.main_left {
+  width: 47%;
+}
+.main_right {
+  padding-top: 190px;
+  height: 548px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.client {
+  width: 1147px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.imgBox {
+  width: 25%;
+}
+
+.imgBox:nth-child(4) {
+  display: flex;
+  gap: 3px;
+}
+
+.ipsum {
+  display: flex;
+}
+
+.about {
+  background-color: #020a18;
+}
+
+.logo {
+  background-color: #020a18;
+}
+.cardTitle {
+  color: #fff;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%;
+}
+.cards {
+  width: 100%;
+  background-color: #020a18;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 120px 0;
+}
+
+.cardInfo {
+  color: #fff;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%;
+}
+.cardImg {
+  width: 100%;
+  height: 30%;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cardTop {
+  display: flex;
+  gap: 30px;
+  width: 33%;
+  width: 1147px;
+  margin: 0 auto;
+  background-color: #020a18;
+}
+.cardBottom {
+  width: 1147px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.bottomLeft {
+  width: 66%;
+}
+.bottomRight {
+  display: flex;
+  flex-direction: column;
+  width: 31.5%;
+  gap: 30px;
+}
+
+.card {
+  width: 362px;
+  height: 382px;
+  background-color: #132035;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 25px;
+  color: #ffffff;
+}
+
+.cardDouble {
+  width: 750px;
+  background-color: #132035;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+.cardd {
+  padding-bottom: 200px;
+  background-color: #020a18;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerr {
+  width: 1147px;
+  padding-top: 57px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.m_left,
+.m_right {
+  width: 47%;
+}
+
+.subtitl {
+  color: #fff;
+  font-family: Open Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  width: 548px;
+  margin-bottom: 20px;
+}
+
+.paragraf {
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%;
+  margin-bottom: 65px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.m_right > img {
+  flex-shrink: 0;
+  width: 573px;
+  height: 492px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footers {
+  width: 1147px;
+  padding-bottom: 50px;
+  padding-top: 57px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.footerCard {
+  width: 33%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.a_title {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 209.042px;
+  margin-bottom: auto;
+}
+.a_info {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.prf {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 100;
+  line-height: normal;
+  width: 261px;
+}
+.p {
+  color: var(--ffffff, #fff);
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 261px;
+}
+.paragraf > p {
+  margin-bottom: 20px;
+}
